@@ -12,7 +12,7 @@ cars = data.cars()
 
 # Setup app and layout/frontend
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
- server = app.server
+server = app.server
 app.layout = dbc.Container([
     html.H1('My mudplank'),
     dbc.Row([
